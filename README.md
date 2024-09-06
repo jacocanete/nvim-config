@@ -6,3 +6,5 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ## How to install?
 
 Just cd into your nvim config directory and clone the repository.
+
+`git clone https://github.com/jacocanete/nvim-config.git .`
