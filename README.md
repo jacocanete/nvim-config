@@ -8,3 +8,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 Just cd into your nvim config directory and clone the repository.
 
 `git clone https://github.com/jacocanete/nvim-config.git .`
+
+## How to disable copilot?
+
+Go into `:LazyExtras` and disable `ai.copilot`.
+
+Reject the brainmelt!
