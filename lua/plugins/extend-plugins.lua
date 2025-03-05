@@ -18,6 +18,8 @@ return {
         "emmet-language-server",
         "css-variables-language-server",
         "stylelint-lsp",
+        "python-lsp-server",
+        "intelephense",
       },
     },
   },
@@ -90,6 +92,22 @@ return {
         tsserver = {},
         emmet_language_server = {
           filetypes = { "php", "javascript", "typescript", "javascriptreact", "typescriptreact" },
+        },
+        intelephense = {
+          filetypes = { "php" },
+          settings = {
+            intelephense = {
+              stubs = {
+                "wordpress",
+              },
+              files = {
+                maxSize = 5000000,
+              },
+              environment = {
+                includePaths = { "/home/jacocanete/.config/composer/vendor/php-stubs/acf-pro-stubs/" },
+              },
+            },
+          },
         },
       },
       setup = {
